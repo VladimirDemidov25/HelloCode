@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-string ss = Console.ReadLine();
+﻿using static System.Console;
+string ss = ReadLine();
 int number = int.Parse(ss);
-Console.WriteLine(number*number);
+WriteLine(number*number);
